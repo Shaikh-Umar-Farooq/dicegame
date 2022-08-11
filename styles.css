@@ -1,5 +1,5 @@
-.container {
-  width: 70%;
+.container1 {
+  /* width: 70%; */
   margin: auto;
   text-align: center;
 }
@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 50px;
   font-family: "Lobster", cursive;
   text-shadow: 5px 0 5px #232931;
   font-size: 8em;
@@ -29,13 +29,13 @@ p {
 }
 
 img {
-  width: 60%;
+  width: 50%;
 }
 .btn {
   width: 40%;
   margin: 5% auto;
   background-color: #ffd43b;
-  padding: 2% 0;
+  padding: 3% 0;
   border-color: #232931;
   border-width: 3px;
   box-shadow: 0 5px #232931;
@@ -43,19 +43,49 @@ img {
   border-radius: 13px;
   font-weight: bold;
 }
+:hover.btn {
+  background-color: white;
+}
 .trp {
   width: 20px;
 }
 
 footer {
   margin: 5% 0 0 0;
+  padding: 2% 0 1%;
   color: #eeeeee;
   text-align: center;
   background-color: #393e46;
-  /* font-family: "Indie Flower", cursive; */
 }
-@media (max-width: 768px) {
+.fa-brands {
+  color: white;
+  margin: 20px 10px;
+}
+.fa-award {
+  margin-top: 30px;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 1028px) {
   h1 {
-    font-size: 4rem;
+    font-size: 6rem;
+    margin-top: 200px;
+  }
+  .btn {
+    margin: 10% auto;
+  }
+  img {
+    width: 70%;
+  }
+  .flx {
+    flex-direction: column;
+    padding-top: 10%;
+  }
+  .dice {
+    margin-bottom: 7%;
   }
 }
