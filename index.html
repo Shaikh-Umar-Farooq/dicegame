@@ -5,16 +5,11 @@
     <title>Dicee</title>
 
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
     <script
       src="https://kit.fontawesome.com/e653c7cf97.js"
       crossorigin="anonymous"
@@ -27,29 +22,46 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container text-center">
+    <div class="container1 text-center">
       <h1>Refresh Me</h1>
 
-      <div class="row">
-        <div class="col-md-6 dice">
-          <i class="trp1 fa-solid fa-award fa-4x"></i>
-          <p>Player 1</p>
+      <div class="container1 flx">
+        <div class="flex-items">
+          <div class="flex-item1 dice">
+            <i class="trp1 fa-solid fa-award fa-4x"></i>
+            <p>Player 1</p>
 
-          <img class="img1" src="images/dice6.png" />
+            <img class="img1" src="images/dice6.png" />
+          </div>
+          <div class="flex-item2 dice">
+            <i class="trp2 fa-solid fa-award fa-4x"></i>
+            <p>Player 1</p>
+
+            <img class="img2" src="images/6dice6.png" />
+          </div>
         </div>
-        <div class="col-md-6 dice">
-          <i class="trp2 fa-solid fa-award fa-4x"></i>
-          <p>Player 2</p>
-          <img class="img2" src="images/1dice6.png" />
-        </div>
-        <button class="btn" onClick="window.location.href=window.location.href">
-          Play
-        </button>
       </div>
+
+      <button class="btn" onClick="window.location.href=window.location.href">
+        Play
+      </button>
 
       <script src="index.js" charset="utf-8"></script>
     </div>
   </body>
 
-  <footer>© 2022 Umar Shaikh</footer>
+  <footer>
+    © 2022 Umar Shaikh
+    <div class="footer-icons">
+      <a href="https://www.instagram.com/shaikh_umar_001/"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/umar-shaikh-96b7b31a5/"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a href="https://github.com/Shaikh-Umar-Farooq/">
+        <i class="fa-brands fa-github"></i
+      ></a>
+    </div>
+  </footer>
 </html>
