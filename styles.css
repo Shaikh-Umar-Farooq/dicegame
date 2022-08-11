@@ -64,9 +64,13 @@ footer {
 
 @media (max-width: 1028px) {
   h1 {
-    font-size: 4rem;
+    font-size: 6rem;
+  }
+  img {
+    width: 70%;
   }
   .flx {
     flex-direction: column;
   }
 }
+
